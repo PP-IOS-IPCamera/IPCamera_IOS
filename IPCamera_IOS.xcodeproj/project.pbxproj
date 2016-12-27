@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		710A7CCC1E1222CF00521957 /* IPCamera_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 710A7CCA1E1222CF00521957 /* IPCamera_IOS.xcdatamodeld */; };
+		710A7CCF1E1222F100521957 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 710A7CCE1E1222F100521957 /* Info.plist */; };
 		7177164F1E1213780028C727 /* IPCamera_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7177164E1E1213780028C727 /* IPCamera_IOSTests.swift */; };
 		7177165A1E1213780028C727 /* IPCamera_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717716591E1213780028C727 /* IPCamera_IOSUITests.swift */; };
 		7177167B1E12147D0028C727 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7177166C1E12147D0028C727 /* ViewController.swift */; };
-		7177167C1E12147D0028C727 /* IPCamera_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7177166D1E12147D0028C727 /* IPCamera_IOS.xcdatamodeld */; };
-		717716841E1215BB0028C727 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 717716811E1215260028C727 /* Info.plist */; };
-		717716851E1217920028C727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717716771E12147D0028C727 /* LaunchScreen.storyboard */; };
 		717716861E12179C0028C727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717716721E12147D0028C727 /* Assets.xcassets */; };
-		717716871E1217A40028C727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717716781E12147D0028C727 /* Main.storyboard */; };
 		717716891E1218140028C727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717716681E12147D0028C727 /* AppDelegate.swift */; };
+		71B154F81E125F0B00E55A19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B154F61E125F0B00E55A19 /* LaunchScreen.storyboard */; };
+		71B154F91E125F0B00E55A19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B154F71E125F0B00E55A19 /* Main.storyboard */; };
+		71B155041E12610100E55A19 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B155031E12610100E55A19 /* Home.storyboard */; };
+		71B155061E12653600E55A19 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B155051E12653500E55A19 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		710A7CCB1E1222CF00521957 /* IPCamera_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IPCamera_IOS.xcdatamodel; sourceTree = "<group>"; };
+		710A7CCE1E1222F100521957 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		717716331E1213780028C727 /* IPCamera_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPCamera_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7177164A1E1213780028C727 /* IPCamera_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPCamera_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7177164E1E1213780028C727 /* IPCamera_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPCamera_IOSTests.swift; sourceTree = "<group>"; };
@@ -57,11 +61,11 @@
 		7177165B1E1213780028C727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		717716681E12147D0028C727 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7177166C1E12147D0028C727 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7177166E1E12147D0028C727 /* IPCamera_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IPCamera_IOS.xcdatamodel; sourceTree = "<group>"; };
 		717716721E12147D0028C727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		717716771E12147D0028C727 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		717716781E12147D0028C727 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		717716811E1215260028C727 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B154F61E125F0B00E55A19 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71B154F71E125F0B00E55A19 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		71B155031E12610100E55A19 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		71B155051E12653500E55A19 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		710A7CC91E1222CF00521957 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				710A7CCA1E1222CF00521957 /* IPCamera_IOS.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		710A7CCD1E1222F100521957 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				710A7CCE1E1222F100521957 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		7177162A1E1213780028C727 = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +135,6 @@
 				717716671E12147D0028C727 /* Application */,
 				7177166A1E12147D0028C727 /* Base.lproj */,
 				7177166B1E12147D0028C727 /* Controllers */,
-				7177166D1E12147D0028C727 /* IPCamera_IOS.xcdatamodeld */,
 				7177166F1E12147D0028C727 /* Models */,
 				717716701E12147D0028C727 /* Resources */,
 				717716731E12147D0028C727 /* Services */,
@@ -146,7 +165,8 @@
 		717716671E12147D0028C727 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				717716801E1215260028C727 /* Config */,
+				710A7CCD1E1222F100521957 /* Config */,
+				710A7CC91E1222CF00521957 /* Supporting Files */,
 				717716681E12147D0028C727 /* AppDelegate.swift */,
 			);
 			path = Application;
@@ -163,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				7177166C1E12147D0028C727 /* ViewController.swift */,
+				71B155051E12653500E55A19 /* HomeController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -215,18 +236,27 @@
 		717716761E12147D0028C727 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				717716771E12147D0028C727 /* LaunchScreen.storyboard */,
-				717716781E12147D0028C727 /* Main.storyboard */,
+				71B155021E12610100E55A19 /* Authenticated */,
+				71B154F51E125F0B00E55A19 /* LoginSignup */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		717716801E1215260028C727 /* Config */ = {
+		71B154F51E125F0B00E55A19 /* LoginSignup */ = {
 			isa = PBXGroup;
 			children = (
-				717716811E1215260028C727 /* Info.plist */,
+				71B154F61E125F0B00E55A19 /* LaunchScreen.storyboard */,
+				71B154F71E125F0B00E55A19 /* Main.storyboard */,
 			);
-			path = Config;
+			path = LoginSignup;
+			sourceTree = "<group>";
+		};
+		71B155021E12610100E55A19 /* Authenticated */ = {
+			isa = PBXGroup;
+			children = (
+				71B155031E12610100E55A19 /* Home.storyboard */,
+			);
+			path = Authenticated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,10 +367,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717716871E1217A40028C727 /* Main.storyboard in Resources */,
+				71B154F81E125F0B00E55A19 /* LaunchScreen.storyboard in Resources */,
+				71B155041E12610100E55A19 /* Home.storyboard in Resources */,
+				710A7CCF1E1222F100521957 /* Info.plist in Resources */,
 				717716861E12179C0028C727 /* Assets.xcassets in Resources */,
-				717716851E1217920028C727 /* LaunchScreen.storyboard in Resources */,
-				717716841E1215BB0028C727 /* Info.plist in Resources */,
+				71B154F91E125F0B00E55A19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,9 +396,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B155061E12653600E55A19 /* HomeController.swift in Sources */,
 				717716891E1218140028C727 /* AppDelegate.swift in Sources */,
+				710A7CCC1E1222CF00521957 /* IPCamera_IOS.xcdatamodeld in Sources */,
 				7177167B1E12147D0028C727 /* ViewController.swift in Sources */,
-				7177167C1E12147D0028C727 /* IPCamera_IOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +625,7 @@
 				717716601E1213780028C727 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		717716611E1213780028C727 /* Build configuration list for PBXNativeTarget "IPCamera_IOSTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +634,7 @@
 				717716631E1213780028C727 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		717716641E1213780028C727 /* Build configuration list for PBXNativeTarget "IPCamera_IOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,16 +643,17 @@
 				717716661E1213780028C727 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7177166D1E12147D0028C727 /* IPCamera_IOS.xcdatamodeld */ = {
+		710A7CCA1E1222CF00521957 /* IPCamera_IOS.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7177166E1E12147D0028C727 /* IPCamera_IOS.xcdatamodel */,
+				710A7CCB1E1222CF00521957 /* IPCamera_IOS.xcdatamodel */,
 			);
-			currentVersion = 7177166E1E12147D0028C727 /* IPCamera_IOS.xcdatamodel */;
+			currentVersion = 710A7CCB1E1222CF00521957 /* IPCamera_IOS.xcdatamodel */;
 			path = IPCamera_IOS.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
